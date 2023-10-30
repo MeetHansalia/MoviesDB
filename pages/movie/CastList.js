@@ -20,6 +20,7 @@ const CastList = ({cast}) => {
                 </div>
                 ))}
             </div>
+            
         </div>  
     );
   

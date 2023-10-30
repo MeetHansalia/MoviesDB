@@ -1,0 +1,41 @@
+Base URL :  https://api.themoviedb.org/3
+API key=55ba11d7f869e89608994ad683b819e1
+
+Individual:
+https://api.themoviedb.org/3/movie/{movie_id}?api_key=55ba11d7f869e89608994ad683b819e1&language=en-US&page=1
+
+Now playing
+https://api.themoviedb.org/3/movie/now_playing?api_key=55ba11d7f869e89608994ad683b819e1&language=en-US&page=1
+
+Popular
+https://api.themoviedb.org/3/movie/popular?api_key=55ba11d7f869e89608994ad683b819e1&language=en-US&page=1
+
+Top Rated:
+https://api.themoviedb.org/3/movie/top_rated?api_key=55ba11d7f869e89608994ad683b819e1&language=en-US&page=1
+
+Upcoming:
+https://api.themoviedb.org/3/movie/upcoming?api_key=55ba11d7f869e89608994ad683b819e1&language=en-US&page=1
+
+search
+https://api.themoviedb.org/3/search/movie?api_key=55ba11d7f869e89608994ad683b819e1&query=avatar&language=en-US&page=1
+
+
+https://api.themoviedb.org/3/account/{account_id}/favorite/movies
+https://api.themoviedb.org/3/account/20331008/favorite/movies?api_key=55ba11d7f869e89608994ad683b819e1&language=en-US&page=1&sort_by=created_at.asc
+
+
+
+
+like icon
+
+
+thumbs up
+<button type="button" class="text-blue-700 border border-blue-700 hover:bg-blue-700 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:focus:ring-blue-800 dark:hover:bg-blue-500">
+  <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 18">
+    <path d="M3 7H1a1 1 0 0 0-1 1v8a2 2 0 0 0 4 0V8a1 1 0 0 0-1-1Zm12.954 0H12l1.558-4.5a1.778 1.778 0 0 0-3.331-1.06A24.859 24.859 0 0 1 6 6.8v9.586h.114C8.223 16.969 11.015 18 13.6 18c1.4 0 1.592-.526 1.88-1.317l2.354-7A2 2 0 0 0 15.954 7Z"/>
+  </svg>
+  <span class="sr-only">Icon description</span>
+</button>
+
+
+
